@@ -42,7 +42,7 @@ echo '調整文件結構.'
 chmod 0777 -R Jekyll-config
 mv Jekyll-config/* /jekyll/
 rm -rf Spk Jekyll-config
-rm -rf Caddyfile && rm -rf jekyll.json && mv Caddyfile-Paas Caddyfile
+rm -rf Caddyfile-Paas && rm -rf jekyll.json
 
 echo '前期準備..'
 mkdir /.temp
